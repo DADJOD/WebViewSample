@@ -1,11 +1,13 @@
 package com.template.webviewsample
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.KeyEvent
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
 
+@SuppressLint("StaticFieldLeak")
 private lateinit var webView: WebView
 
 class MainActivity : AppCompatActivity() {

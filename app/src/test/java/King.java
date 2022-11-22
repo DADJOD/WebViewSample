@@ -3,7 +3,7 @@ public class King {
 //    override fun onCreate(savedInstanceState: Bundle?) {
 //        super.onCreate(savedInstanceState)
 //        setContentView(R.layout.main)
-//        webView = findViewById(R.id.webview) as WebView
+//        webView = findViewById(R.id.web_view) as WebView
 //        webView!!.settings.javaScriptEnabled = true
 //        webView!!.loadUrl("http://www.ya.ru")
 //        webView!!.webViewClient = WebViewSampleClient()
